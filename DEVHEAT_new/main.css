@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family: URW Form SemiCond,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight:200;
+    height: 100%;
+    margin: 0;
+    text-align: left;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------header--------------------- */
+.header{
+    background-image: linear-gradient(rgba(207, 192, 160, 0.7),rgba(40, 42, 49, 0.7)),url('extra img/front_img2.jpg');
+    /* min-height: 70vh; */
+    position:relative;
+    background-size:cover;
+}
+.front_content{
+    padding: 15% 5%;
+}
+.front_button button{
+    border : 2px solid green;
+    border-radius: 30px;
+    background-color: greenyellow;
+    font-weight: 50;
+    /* width: 90px; */
+    padding: 12px 27px;
+    margin: 0 2%
+}
+.front_button{
+    margin: 3% 2%;
+}
+#demo{
+ 
+    font-weight: 50;
+    padding: 12px 2px;
+    color:white;
+    font-style: italic;
+    font-size: 5vh;
+    margin: 0 2%;
+}
+/* ------------------navigation bar-----------------------------------rgb(122 112 92) */
+nav{
+    display:flex;
+    padding:1% 5% 1%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 0 100px 0 black;
+    background-color:rgb(122 112 92);
+    margin-bottom:1px;
+}
+.nav-links{
+    /* display: flex; */
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    list-style-type: none;
+    margin:0.5% 1%;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color:black;
+}
+/* -------------------------------------middle-------------------------------------- */
+
+.subscription{
+    /* border: 1px solid red; */
+    background-color: pink;;
+    padding: 100px;
+    text-align: center;
+}
+.subscription h1{
+    font-size: 35vh;
+    font-weight: 40;
+}
+
+.suggestions-row{
+    background-color: #ffcab2;
+
+}
+.column{
+    margin: 0 5%;
+}
+.column a img{
+    height: 40vh;
+    width: 60vh;
+    margin-top: 8px;
+}
+.faq h1{
+    font-weight:700;
+    font-size: 50px;
+    font-family: Dashiell Fine,Georgia,Times New Roman,Times,serif;
+    letter-spacing:-3px;
+    padding : 10%;
+    text-align: center;
+}
+.column a{
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1a1f9; 
+    width: 99%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .column a:hover .overlay{
+    opacity: 1;
+  }
+/* --------------------------------------footer---------------------------------- */
+.footer{
+    background-color: blue; 
+}
+.icons{
+    padding: 1% 25%;
+    align-items: center;
+}
+.icons i{
+    font-size:48px;
+    margin: 6%;
+    position: relative;
+}
+

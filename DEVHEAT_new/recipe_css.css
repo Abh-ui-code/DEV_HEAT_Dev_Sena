@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+.dish1{
+    margin:3% 3%;
+}
+.dish1 a img{
+    height: 30vh;
+    width: 50vh;
+    margin: 0 3%;
+    padding: 0;
+    
+}
+    
+.dish1 img{
+    box-shadow: 0 6px 6px 0 rgb(83, 82, 82);
+
+}
+.heading h1{
+    text-align: center;
+    font-size: 6vh;
+    margin-bottom: 1%;
+}
+.heading p{
+    text-align: center;
+}
+
